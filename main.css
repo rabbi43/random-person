@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.container{
+  /* border: 1px solid red; */
+  margin: 5px 10px;
+  text-align: center;
+  padding: 10px;
+  background: #222;
+  border-radius: 10px;
+  width: 600px;
+  max-width: 90%;
+}
+.img-box{
+  width: 100%;
+  max-height: 400px;
+  height: 700px;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  /* background-image: url(img/7.jpg); */
+  background-size: cover;
+}
+img{
+  height: 100%;
+  width: 100%;
+}
+.haha{
+  font-size: 3rem;
+  margin: 5px 0;
+}
+button{
+  height: 40px;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  text-align-last: center;
+  background: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+  
+}
+button:hover{
+  background: white;
+  color: black;
+}
